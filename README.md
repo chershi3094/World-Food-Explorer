@@ -1,2 +1,15 @@
-# World-Food-Explorer
-World Food Explorer is a beautiful and interactive web application that lets users discover cuisines from around the world. Built using HTML, CSS, and JavaScript with data powered by TheMealDB API, this project showcases over 100 dishes per country with rich visuals and interactive navigation.
+# 🌍 World Food Explorer
+
+Explore delicious meals from 30+ countries with images, ingredients, recipes, and YouTube videos.
+
+## 🚀 Features
+- 🌎 Browse meals by country
+- 🍽️ View 100+ food items per country
+- 📋 See ingredients and instructions
+- 📺 Watch YouTube recipe videos
+- 🔍 Search countries easily
+- 📱 Mobile-friendly design
+
+## 🛠 Built With
+- HTML, CSS, JavaScript
+- [TheMealDB API](https://www.themealdb.com)
