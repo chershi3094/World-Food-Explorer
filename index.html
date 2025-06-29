@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>World Food Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌍 World Food Explorer</h1>
+  </header>
+  <main>
+    <section id="countrySection">
+      <h2>Select a Country</h2>
+      <input type="text" id="searchInput" placeholder="Search countries..." />
+      <div id="countryGrid" class="grid"></div>
+    </section>
+
+    <section id="mealSection" class="hidden">
+      <button id="backToCountries" class="back-button">← Back to Countries</button>
+      <h2 id="mealTitle"></h2>
+      <div id="mealGrid" class="grid"></div>
+    </section>
+
+    <section id="detailsSection" class="hidden">
+      <button id="backToMeals" class="back-button">← Back to Meals</button>
+      <div id="mealDetails"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
